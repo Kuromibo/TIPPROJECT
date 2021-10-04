@@ -26,6 +26,9 @@ img {
   padding-bottom: 10px;
   margin-top: -22px;
 }
+.blackheader a:hover{
+color: white;
+}
 .tip {
   background: #fae806;
   padding-top: 10px;
@@ -117,14 +120,14 @@ body {
 }
 .btn{
   font-size: 1.2rem;
-  padding:.5rem 1rem;
+  padding:.7rem 1.3rem;
   border-radius: 25px;
   background: #494A4A;
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
 .btn:hover{
-  background: #E1E1E1;
+  background: #E8E8E8;
   color: black;
 }
 .lil-hr{
@@ -137,4 +140,7 @@ body {
   background-color: #424242;
   height: 3px;
 
+}
+.m-top{
+  margin-top: 4rem;
 }
