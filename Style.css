@@ -5,9 +5,11 @@
 }
 .tipheader {
     background-image: url("https://tip.edu.ph/themes/custom/images/TIP-desktop-HOMEPAGE-LIGHT-GRAY.jpg");
-    height: 590px;
+    height: 590px; 
+    /* CHANGE TO AUTO */
 }
 .blackheader {
+    color: white;
     background:#1e1e1e;
     padding-top: 5px;
     padding-bottom: 10px;
