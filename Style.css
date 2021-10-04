@@ -1,59 +1,66 @@
 .Head2 {
-    text-decoration: none;
-    color: #fae806;
-    font-size: 15px;
+  text-decoration: none;
+  color: #fae806;
+  font-size: 15px;
 }
 .tipheader {
-    background-image: url("https://tip.edu.ph/themes/custom/images/TIP-desktop-HOMEPAGE-LIGHT-GRAY.jpg");
-    background-attachment: fixed;
-    height: auto;
-    background-repeat: repeat; 
-    /* CHANGE TO AUTO */
+  background-image: url("https://tip.edu.ph/themes/custom/images/TIP-desktop-HOMEPAGE-LIGHT-GRAY.jpg");
+  background-attachment: fixed;
+  height: auto;
+  background-repeat: repeat;
+  /* CHANGE TO AUTO */
 }
 .blackheader {
-    color: white;
-    background:#1e1e1e;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    margin-top: -22px;
+  color: white;
+  background: #1e1e1e;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-top: -22px;
 }
 .tip {
-    background: #fae806;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  background: #fae806;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .icon {
-    float: right;
-    margin-right: 40px;
+  float: right;
+  margin-right: 40px;
 }
 .icon a > i {
-    font-size: 20px;
-
+  font-size: 20px;
 }
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 .icon > a {
-    background: #fae806;
-    padding: 9px;
-    border-radius: 15rem;
+  background: #fae806;
+  padding: 9px;
+  border-radius: 15rem;
 }
 .lea {
-    float: right;
-    margin-right: 55px;
+  float: right;
+  margin-right: 55px;
 }
 .bottom {
-    background: #fae806;
-    padding-top: 10px;
-    padding-bottom: 80px;
+  background: #fae806;
+  padding-top: 10px;
+  padding-bottom: 80px;
 }
 .main {
-    width: 1000px;
-    margin: auto;
+  width: 1000px;
+  margin: auto;
 }
 
 .content {
-    padding-left: 1rem;
-    padding-right: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.div-content {
+  top: 0;
+  position: sticky;
+  display: flex;
+  justify-content: space-evenly;
+  width: auto;
 }
