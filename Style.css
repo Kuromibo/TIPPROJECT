@@ -1,3 +1,12 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Hind', sans-serif;
+}
+/* automatically set the size of image */
+img {
+  width: 100%;
+  height: auto;
+}
 .Head2 {
   text-decoration: none;
   color: #fae806;
@@ -81,4 +90,51 @@ a {
 
 body {
   background: rgb(100, 99, 99);
+}
+
+.side50{
+  width: 49%;
+  float: left;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.txt-cntr{
+  text-align: center;
+}
+
+.w80{
+  width: 80%;
+  margin:0 auto;
+}
+.pad1{
+  padding: 1rem;
+}
+.mrgn-left1{
+  margin-left: 3rem;
+}
+.btn{
+  font-size: 1.2rem;
+  padding:.5rem 1rem;
+  border-radius: 25px;
+  background: #494A4A;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+.btn:hover{
+  background: #E1E1E1;
+  color: black;
+}
+.lil-hr{
+  width: 90px;
+  height: 25px;
+  background-color: #424242;
+}
+.div-line{
+  width: 80%;
+  background-color: #424242;
+  height: 3px;
+
 }
