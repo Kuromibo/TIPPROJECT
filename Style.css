@@ -2,6 +2,9 @@
   box-sizing: border-box;
   font-family: 'Hind', sans-serif;
 }
+p{
+  text-align: justify;
+}
 /* automatically set the size of image */
 img {
   width: 100%;
@@ -12,15 +15,49 @@ img {
   color: #fae806;
   font-size: 15px;
 }
+.part img {
+  width: 198px;
+  height: 132px;
+}
+.bottom2 div {
+  float: left;
+  padding-right: 25px;
+}
+.bottom2 {
+  margin-left: 100px;
+  padding-top: 15px;
+}
+.news {
+  margin-left: -950px;
+}
+.hrb {
+  height: 5px;
+  background: #1e1e1e;
+  margin-top: -20px;
+  margin-right: 355px;
+}
+.bottom2 div > h4 {
+  border-bottom: 3px solid #1e1e1e;
+  text-align: left;
+}
 .tipheader {
   background-image: url("https://tip.edu.ph/themes/custom/images/TIP-desktop-HOMEPAGE-LIGHT-GRAY.jpg");
-  background-attachment: fixed;
   padding-top: 10px;
   padding-bottom: 10px;
   min-height: 790px;
 }
-.grayheader{
+.headline {
+  width: 200px;
+  text-align: left;
+  font-size: 12px;
+}
+.grayheader   {
   background-image: url("https://tip.edu.ph/themes/custom/images/TIP-desktop-INSIDEPAGE-DARK-GRAY.jpg");
+  height: 320px;
+}
+.paa {
+  color: #E8E8E8;
+  text-align: center;
 }
 .blackheader {
   color: white;
@@ -44,6 +81,9 @@ color: white;
 .icon a > i {
   font-size: 20px;
 }
+.contact1 * {
+  text-align: center;
+}
 a {
   text-decoration: none;
   color: black;
@@ -61,6 +101,7 @@ a {
   background: #fae806;
   padding-top: 10px;
   padding-bottom: 80px;
+  overflow: hidden;
 }
 .main {
   width: 1100px;
@@ -95,7 +136,7 @@ a {
 }
 
 body {
-  background: rgb(100, 99, 99);
+  background: #1e1e1e
 }
 
 .side50{
@@ -147,12 +188,18 @@ body {
 .m-top{
   margin-top: 4rem;
 }
+<<<<<<< HEAD
+=======
 
 .wrapper {
   display: grid;
   grid-template-columns: 30% 70%;
 }
 
+<<<<<<< HEAD
 p{
   text-align: justify;
 }
+=======
+>>>>>>> 53e44e29d6f4e6a9e7fe8ef4d8c3275796fe86ec
+>>>>>>> 6904c17669094cce25e7ea3e49bf8972e0755d3f
