@@ -150,3 +150,12 @@ body {
 .m-top{
   margin-top: 4rem;
 }
+<<<<<<< HEAD
+=======
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+>>>>>>> 53e44e29d6f4e6a9e7fe8ef4d8c3275796fe86ec
