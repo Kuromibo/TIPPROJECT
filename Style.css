@@ -17,7 +17,7 @@ img {
   background-attachment: fixed;
   padding-top: 10px;
   padding-bottom: 10px;
-  min-height: 1000px;
+  min-height: 790px;
 }
 .grayheader{
   background-image: url("https://tip.edu.ph/themes/custom/images/TIP-desktop-INSIDEPAGE-DARK-GRAY.jpg");
@@ -153,3 +153,6 @@ body {
   grid-template-columns: 30% 70%;
 }
 
+p{
+  text-align: justify;
+}
