@@ -74,12 +74,27 @@ a {
   padding-right: 1rem;
 }
 
-.div-content {
+.nav-content {
   top: 0;
+  margin-top: 1rem;
   position: sticky;
   display: flex;
   justify-content: space-evenly;
-  width: auto;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem;
+  height: 50vh;
+  margin: 1rem;
+}
+.nav-content > .Head2{
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-bottom: #fae806 1px solid;
+  /* text-decoration: underline;  */
+}
+
+.wrap{
+  display: flex;
 }
 
 #back-to-top:hover{
