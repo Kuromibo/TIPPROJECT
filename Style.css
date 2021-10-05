@@ -19,6 +19,9 @@ img {
   padding-bottom: 10px;
   min-height: 1000px;
 }
+.grayheader{
+  background-image: url("https://tip.edu.ph/themes/custom/images/TIP-desktop-INSIDEPAGE-DARK-GRAY.jpg");
+}
 .blackheader {
   color: white;
   background: #1e1e1e;
@@ -144,3 +147,4 @@ body {
 .m-top{
   margin-top: 4rem;
 }
+
