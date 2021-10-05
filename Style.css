@@ -148,3 +148,8 @@ body {
   margin-top: 4rem;
 }
 
+.wrapper {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
