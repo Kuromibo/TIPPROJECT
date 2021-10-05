@@ -2,6 +2,9 @@
   box-sizing: border-box;
   font-family: 'Hind', sans-serif;
 }
+p{
+  text-align: justify;
+}
 /* automatically set the size of image */
 img {
   width: 100%;
@@ -147,4 +150,3 @@ body {
 .m-top{
   margin-top: 4rem;
 }
-
