@@ -188,18 +188,20 @@ body {
 .m-top{
   margin-top: 4rem;
 }
-<<<<<<< HEAD
-=======
+
+/*<<<<<<< HEAD
+=======*/
 
 .wrapper {
   display: grid;
   grid-template-columns: 30% 70%;
 }
 
-<<<<<<< HEAD
+/*<<<<<<< HEAD*/
 p{
   text-align: justify;
 }
-=======
+/*=======
 >>>>>>> 53e44e29d6f4e6a9e7fe8ef4d8c3275796fe86ec
 >>>>>>> 6904c17669094cce25e7ea3e49bf8972e0755d3f
+*/
