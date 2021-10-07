@@ -131,7 +131,12 @@ img {
 }
 
 .infos h4,
-.news h4 {
+.news h4, 
+#vision-mission h1, 
+#core-values h3,
+#core-competencies h3,
+#policies h3,
+#hymn h1  {
   text-align: center;
   border-bottom: 0.2rem solid var(--dark-bg-color);
   padding-bottom: 0.2rem;
@@ -193,7 +198,7 @@ footer {
 }
 
 .about-navbar a {
-  font-size: 1.2rem;
+  font-size: 0.85rem;
   border: none;
   border-bottom: 1px solid var(--primary-color);
   padding: 1rem 0.5rem;
@@ -214,6 +219,7 @@ footer {
 #back-to-top::after {
   content: "]";
 }
+
 
 /* end of about page */
 
