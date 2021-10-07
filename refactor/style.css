@@ -97,6 +97,11 @@ main {
   min-height: 20vh;
 }
 
+#main-top {
+  display: flex;
+  flex-direction: row;
+}
+
 article {
   width: 90%;
   background: var(--primary-color);
@@ -126,6 +131,7 @@ img {
   padding: 1rem;
   text-align: center;
 }
+
 
 .news {
   flex-direction: column;
