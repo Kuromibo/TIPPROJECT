@@ -99,11 +99,11 @@ main {
 
 #main-top {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 article {
-  width: 90%;
+  width: 100%;
   background: var(--primary-color);
   margin: auto;
 }
@@ -129,6 +129,14 @@ img {
 .infos div {
   width: 20%;
   padding: 1rem;
+  text-align: center;
+}
+
+.embed{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -245,6 +253,7 @@ footer {
 #progoff h4 {
   line-height: 0;
 }
+
 #progoff .m-btm {
   margin-bottom: 5rem;
 }
@@ -257,6 +266,7 @@ footer {
   content: "";
   display: table;
   clear: both;
+  margin-bottom: 10vh;
 }
 .txt-cntr {
   text-align: center;
@@ -462,6 +472,10 @@ div.cntr {
   padding: 0.5rem 1rem;
   transition: all 0.5s;
 }
+
+.button span{
+  margin: 0;
+}
 .button span:after {
   content: " ▾ ";
 }
@@ -498,7 +512,7 @@ div.cntr {
   background-color: var(--dark-bg-color);
   position: fixed;
   top: 90vh;
-  left: 90vw;
+  left: 85vw;
 }
 
 .back-to-top a {
@@ -526,6 +540,8 @@ div.cntr {
 .drop a:hover {
   color: var(--primary-color);
 }
+
+
 
 /* end of progOff */
 

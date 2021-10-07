@@ -2,13 +2,28 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link href="../Style.css" rel="stylesheet" />
+    <link href="../refactor/style.css" rel="stylesheet" />
     <title></title>
     <style media="screen">
       h4, p{margin-bottom:-.5rem;}
+      #tbl{
+        margin: 0 auto;
+      }
+      #tbl th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #FAE806;
+      }
+      #tbl td, #tbl th {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      #tbl tr:nth-child(even){background-color:rgba(66,66,66,.2);}
     </style>
   </head>
   <body>
+  <div class="bg">
     <div class="tipheader">
       <center>
         <a href=""><img src="../media/LogoT.png" style="width:150px;"/></a>
@@ -36,58 +51,301 @@
         </div>
         <br/>
       </center>
-      <div class="program-heading w90">
-        <h1>Information Technology</h1>
-      </div>
-      <div class="row w90">
-       <section class="side50 small">
-         <p>The Information Technology program is focused on the utilization of computers and computer software to plan, install, customize, operate, manage, administer and maintain information technology systems.</p>
-         <p>The program prepares students to be IT professionals who are well versed in application installation, operation, development, maintenance and administration; as well as familiar with hardware installation, operation, and maintenance.</p>
-         <h4><b></b>Accredited by the Computing Accreditation Commission (CAC) of ABET (<a href="https://www.abet.org/" target="_blank">abet.org</a>) </h4>
-         <h4><b>Accredited by Philippine Information and Computing Accreditation Board (PICAB)</b> </h4>
-         <h4><b>Recognition:</b> </h4>
-         <p>From CHED: Center of Excellence (COE) for Information Technology Education (ITE)</p>
-         <p>From PACUCOA: Level IV Accredited Status in Information Technology</p>
-         <h4><b>PROGRAM EDUCATIONAL OBJECTIVES</b> </h4>
-         <p>The Information Technology program has adopted the following educational objectives.</p>
-         <p>Three to five years after graduation, the Information Technology alumni shall:</p>
-         <ul>
-           <li>have advanced their practice or achievement in the field of Information Technology and/or other endeavors or advocacies supported by their acquired information technology education;</li>
-           <li>be globally competitive through</li>
-           <ul>
-             <li>living by the TIP mission values, pursuing continuing education, and practicing continuous quality improvement in their personal lives;</li>
-             <li>continuously scanning, adopting, and building on the best practices in their field.</li>
-           </ul>
-         </ul>
-       </section>
-       <section class="side50 small">
-          <h4><b>STUDENT OUTCOMES</b> </h4>
-          <p>By the time of graduation, students will be able to:</p>
-          <p>a. apply knowledge of computing, science, and mathematics appropriate to the discipline;
-              b. analyze a complex problem and identify and define the computing requirements appropriate to its solution;<br>
-              c. design, implement, and evaluate a computer based system, process, component, or program to meet desired needs with appropriate constraints for public health and safety, cultural, societal, and environmental considerations;<br>
-              d. use modern techniques, skills, and tools of computing practice in complex computing activities;<br>
-              e. function effectively as an individual and as a member or leader in diverse teams and in multi-disciplinary settings;<br>
-              f. communicate effectively about complex computing activities with various communities, such as computing experts and society at large, using appropriate levels of discourse;<br>
-              g. analyze the local and global impact of computing on individuals, organizations, and society;<br>
-              h. understand professional, ethical, legal, security, and social issues and responsibilities relevant to professional computing practice;<br>
-              i. recognize the need for, and have the ability to engage in continuous professional development and lifelong learning;<br>
-              j. identify and analyze user needs and take them into account in the selection, creation, evaluation, and administration of computer based systems;<br>
-              k. use and apply current technical concepts and practices in the core information technologies;<br>
-              l. integrate IT based solutions into the user environment effectively;
-              m. understand best practices and standards and their applications;
-              n. assist in the creation of an effective project plan.</p>
-       </section>
-       <section>
-         <h4><b></b> </h4>
-         <p></p>
-         <ul>
-           <li></li>
-           <li></li>
-           <li></li>
-         </ul>
-       </section>
-      </div>
+        </div>
+    <div class="program-heading w90">
+      <h1>Information Technology</h1>
     </div>
+    <div class="row w90">
+     <section class="side50 small">
+       <p>The Information Technology program is focused on the utilization of computers and computer software to plan, install, customize, operate, manage, administer and maintain information technology systems.</p>
+       <p>The program prepares students to be IT professionals who are well versed in application installation, operation, development, maintenance and administration; as well as familiar with hardware installation, operation, and maintenance.</p>
+       <h4><b></b>Accredited by the Computing Accreditation Commission (CAC) of ABET (<a href="https://www.abet.org/" target="_blank">abet.org</a>) </h4>
+       <h4><b>Accredited by Philippine Information and Computing Accreditation Board (PICAB)</b> </h4>
+       <h4><b>Recognition:</b> </h4>
+       <ul>
+         <li>From CHED: Center of Excellence (COE) for Information Technology Education (ITE)</li>
+         <li>From PACUCOA: Level IV Accredited Status in Information Technology</li>
+       </ul>
+       <h4><b>PROGRAM EDUCATIONAL OBJECTIVES</b> </h4>
+       <p>The Information Technology program has adopted the following educational objectives.</p>
+       <p>Three to five years after graduation, the Information Technology alumni shall:</p>
+       <ul>
+         <li>have advanced their practice or achievement in the field of Information Technology and/or other endeavors or advocacies supported by their acquired information technology education;</li>
+         <li>be globally competitive through</li>
+         <ul>
+           <li>living by the TIP mission values, pursuing continuing education, and practicing continuous quality improvement in their personal lives;</li>
+           <li>continuously scanning, adopting, and building on the best practices in their field.</li>
+         </ul>
+       </ul>
+       <h4><b>STUDENT OUTCOMES</b> </h4>
+        <p>By the time of graduation, students will be able to:</p>
+        <ol type="a">
+          <li>apply knowledge of computing, science, and mathematics appropriate to the discipline;</li>
+          <li>analyze a complex problem and identify and define the computing requirements appropriate to its solution;</li>
+        </ol>
+     </section>
+     <section class="side50 small">
+      <ol type="a" start="3">
+        <li>design, implement, and evaluate a computer based system, process, component, or program to meet desired needs with appropriate constraints for public health and safety, cultural, societal, and environmental considerations;</li>
+        <li>use modern techniques, skills, and tools of computing practice in complex computing activities;</li>
+        <li>function effectively as an individual and as a member or leader in diverse teams and in multi-disciplinary settings;</li>
+        <li>communicate effectively about complex computing activities with various communities, such as computing experts and society at large, using appropriate levels of discourse;</li>
+        <li>analyze the local and global impact of computing on individuals, organizations, and society;</li>
+        <li>understand professional, ethical, legal, security, and social issues and responsibilities relevant to professional computing practice;</li>
+        <li>recognize the need for, and have the ability to engage in continuous professional development and lifelong learning;</li>
+        <li>apply mathematical foundations, algorithmic principles, and computer science theory in the modelling and design of computer-based systems in a way to demonstrate comprehension of the tradeoffs involved in design choices;</li>
+        <li>apply design and development principles in the construction of software systems of varying complexity.</li>
+      </ol>
+      <p>Effective S.Y. 2018-2019, the following Student Outcomes of the Computer Science Program will apply:</p>
+      <ol>
+        <li>Analyze a complex computing problem and apply principles of computing and other relevant disciplines to identify solutions</li>
+        <li>Design, implement, and evaluate a computing-based solution to meet a given set of computing requirements in the context of the program’s discipline</li>
+        <li>Communicate effectively in a variety of professional contexts</li>
+        <li>Recognize professional responsibilities and make informed judgments in computing practice based on legal and ethical principles</li>
+        <li>Function effectively as a member or leader of a team engaged in activities appropriate to the program’s discipline</li>
+        <li>Apply computer science theory and software development fundamentals to produce computing-based solutions</li>
+      </ol>
+     </section>
+
+    </div>
+    <div class=" row w90" >
+      <section class="side50">
+        <h4><b>ANNUAL STUDENT ENROLLMENT</b></h4><br>
+        <table id="tbl" style="border-collapse: collapse;">
+          <thead>
+            <th>School Year</th>
+            <th>Term</th>
+            <th>Enrollment Data</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>SY 2020 - 2021</td>
+              <td>Summer</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>2nd Semester</td>
+              <td>734</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>1st Semester</td>
+              <td>734</td>
+            </tr>
+            <td>SY 2019 - 2020</td>
+              <td>Summer</td>
+              <td>61</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>2nd Semester</td>
+              <td>719</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>1st Semester</td>
+              <td>825</td>
+            </tr>
+            <td>SY 2018 - 2019</td>
+              <td>Summer</td>
+              <td>109</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>2nd Semester</td>
+              <td>603</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>1st Semester</td>
+              <td>703</td>
+            </tr>
+            <td>SY 2017 - 2018</td>
+              <td>Summer</td>
+              <td>174</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>2nd Semester</td>
+              <td>560</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>1st Semester</td>
+              <td>629</td>
+            </tr>
+            <td>SY 2016 - 2017</td>
+              <td>Summer</td>
+              <td>323</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>2nd Semester</td>
+              <td>752</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>1st Semester</td>
+              <td>833</td>
+            </tr>
+            <td>SY 2015 - 2016</td>
+              <td>Summer</td>
+              <td>335</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>2nd Semester</td>
+              <td>956</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>1st Semester</td>
+              <td>1,095</td>
+            </tr>
+            <td>SY 2014 - 2015</td>
+              <td>Summer</td>
+              <td>343</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>2nd Semester</td>
+              <td>1,127</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>1st Semester</td>
+              <td>1,340</td>
+            </tr>
+            <td>SY 2013 - 2014</td>
+              <td>Summer</td>
+              <td>545</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>2nd Semester</td>
+              <td>1,547</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>1st Semester</td>
+              <td>1,850</td>
+            </tr>
+            <td>SY 2012 - 2013</td>
+              <td>Summer</td>
+              <td>522</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>2nd Semester</td>
+              <td>1,795</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>1st Semester</td>
+              <td>2,044</td>
+            </tr>
+            <td>SY 2011 - 2012</td>
+              <td>Summer</td>
+              <td>644</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>2nd Semester</td>
+              <td>2,027</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>1st Semester</td>
+              <td>2,307</td>
+            </tr>
+            <td>SY 2010 - 2011</td>
+              <td>Summer</td>
+              <td>554</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>2nd Semester</td>
+              <td>1,987</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>1st Semester</td>
+              <td>2,225</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="side50">
+        <h4><b>2018 CURRICULUM</b></h4><br>
+        <table id="tbl" style="border-collapse: collapse;">
+          <thead>
+            <th>COURSE CODE</th>
+            <th>DESCRIPTIVE TITLE</th>
+            <th>LEC HOURS</th>
+            <th>LAB HOURS</th>
+            <th>CREDIT UNITS</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="5">FIRST YEAR, FIRST SEMESTER(17)</td>
+            </tr>
+            <tr>
+              <td>GEC 002</td>
+              <td>READINGS IN PHILIPPINE HISTORY</td>
+              <td>3</td>
+              <td>0</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>GEC 004</td>
+              <td>MATHEMATICS IN THE MODERN WORLD</td>
+              <td>3</td>
+              <td>0</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>ITE 011</td>
+              <td>INTRODUCTION TO COMPUTING</td>
+              <td>2</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>ITE 001</td>
+              <td>COMPUTER PROGRAMMING 1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>MATH 013A</td>
+              <td>LINEAR ALGEBRA</td>
+              <td>3</td>
+              <td>0</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>PE 001</td>
+              <td>PHYSICAL EDUCATION 1</td>
+              <td>2</td>
+              <td>0</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>NSTP 001</td>
+              <td>NATIONAL SERVICE TRAINING PROGRAM 1</td>
+              <td>(3)</td>
+              <td>0</td>
+              <td>(3)</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+
+
+  </div>
+
   </body>
 </html>
