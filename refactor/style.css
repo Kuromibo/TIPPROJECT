@@ -200,6 +200,7 @@ footer {
   display: flex;
   flex-direction: row;
   padding-bottom: 10vh;
+  margin-top: 5vh;
 }
 
 .about-nav-cover {
@@ -581,13 +582,6 @@ div.cntr {
   background: #faea06a1;
 }
 
-.content {
-  min-height: 50vh;
-  padding: 5vh;
-  background: #faea06a1;
-  border-radius: 5px;
-}
-
 #ad-head h1 {
   padding-bottom: 3vh;
 }
@@ -653,6 +647,5 @@ a {
 }
 
 .content-wrap {
-  padding: 20%;
-  padding-top: 10%;
+  padding: 1vh 20%;
 }
