@@ -106,6 +106,9 @@ a {
   float: right;
   margin-right: 55px;
 }
+.lea a:hover {
+  border-bottom: 2px #424242 solid;
+}
 .bottom {
   background: #fae806;
   padding-top: 10px;
@@ -217,7 +220,7 @@ section p{
 }
 
 .btn:hover{
-  background: #E8E8E8;
+  background:transparent;
   color: black;
 }
 
@@ -283,7 +286,7 @@ section p{
 .back-to-top{
   padding:.5rem;
   position: fixed;
-  background-color: black;
+  background-color:#424242;
   width: 50px;
   height: 50px;
   bottom:2rem;
@@ -291,6 +294,13 @@ section p{
 }
 .back-to-top i{
   color:#FAE806;
+}
+.back-to-top:hover{
+  opacity: .8;
+  background-color: #FAE806;
+}
+.back-to-top i:hover{
+  color:black;
 }
 .overflow{
   padding:.5rem 1rem;
@@ -307,7 +317,9 @@ section p{
 .overflow::-webkit-scrollbar-thumb {
   background: #FAE806;
 }
-
+.small p{
+  font-size: 1rem;
+}
 .wrapper {
   display: grid;
   grid-template-columns: 30% 70%;
