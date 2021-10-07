@@ -133,7 +133,7 @@ img {
   text-align: center;
 }
 
-.embed{
+.embed {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -146,7 +146,6 @@ img {
 .news {
   flex-direction: column;
 }
-
 
 .infos h4,
 .news h4,
@@ -228,7 +227,8 @@ footer {
   padding: 1rem 0.5rem;
 }
 
-.content, #ad-head {
+.content,
+#ad-head {
   width: 60%;
 }
 
@@ -477,7 +477,7 @@ div.cntr {
   transition: all 0.5s;
 }
 
-.button span{
+.button span {
   margin: 0;
 }
 .button span:after {
@@ -553,9 +553,12 @@ div.cntr {
 }
 /* end of progOff */
 
-#news h1{
+#news h1 {
   border-bottom: 5px solid black;
   width: 80%;
+  margin: auto;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .qna-q {
@@ -564,80 +567,33 @@ div.cntr {
 }
 
 .dl-link:hover {
-  color:#000;
+  color: #000;
 }
 
 .dl-link {
-  color: dodgerblue;
+  color: rgb(3, 27, 129);
 }
 
 .ad-content {
-  min-height: 600px;
+  border-radius: 1%;
+  min-height: 50vh;
+  padding: 5vh;
+  background: #faea06a1;
 }
 
-/*
-.part img {
-  width: 198px;
-  height: 132px;
+.content {
+  min-height: 50vh;
+  padding: 5vh;
+  background: #faea06a1;
+  border-radius: 5px;
 }
-.bottom2 div {
-  float: left;
-  padding-right: 25px;
-}
-.bottom2 {
-  margin-left: 100px;
-  padding-top: 15px;
-} */
-/* .news {
-  margin-left: -950px;
-}
-.hrb {
-  height: 5px;
-  background: #1e1e1e;
-  margin-top: -20px;
-  margin-right: 355px;
-}
-.bottom2 div > h4 {
-  border-bottom: 3px solid #1e1e1e;
-  text-align: left;
-} */
-/* .tipheader {
-  background-image: url("https://tip.edu.ph/themes/custom/images/TIP-desktop-HOMEPAGE-LIGHT-GRAY.jpg");
-  padding-top: 10px;
-  padding-bottom: 10px;
-  min-height: 790px;
-} */
-/* .headline {
-  width: 200px;
-  text-align: left;
-  font-size: 12px;
-}
-.headline {
-  width: 200px;
-  text-align: left;
-  font-size: 12px;
-}
-.grayheader {
-  background-image: url("https://tip.edu.ph/themes/custom/images/TIP-desktop-INSIDEPAGE-DARK-GRAY.jpg");
-  height: 320px;
-}
-.paa {
-  color: #e8e8e8;
-  text-align: center;
-} */
-/* .blackheader {
-  color: white;
-  background: #1e1e1e;
-  padding-top: 5px;
-  padding-bottom: 10px;
-  margin-top: -22px;
-} */
 
-/* .blackheader a:hover {
-  color: white;
+#ad-head h1 {
+  padding-bottom: 3vh;
 }
+
 .tip {
-  background: #fae806;
+  background: var(--primary-color);
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -645,7 +601,7 @@ div.cntr {
   float: right;
   margin-right: 40px;
 }
-.icon a > i {
+.icon a i {
   font-size: 20px;
 }
 .contact1 * {
@@ -673,27 +629,30 @@ a {
   margin-bottom: 10vh;
 }
 
-
-.news-wrap figcaption{
+.news-wrap figcaption {
   margin-top: 1rem;
   font-style: italic;
 }
 
-.news-wrap{
+.news-wrap {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 5vh;
 }
 
-.newslink h1{
+.newslink h1 {
   color: var(--primary-color);
   background: var(--dark-bg-color);
   padding: 2rem;
 }
 
-.newslink a{
+.newslink a {
   color: blue;
   text-decoration: underline;
 }
 
+.content-wrap {
+  padding: 20%;
+  padding-top: 10%;
+}
