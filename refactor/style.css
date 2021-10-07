@@ -546,7 +546,8 @@ div.cntr {
 #news h1{
   border-bottom: 5px solid black;
   width: 80%;
-  
+}
+
 .qna-q {
   color: var(--primary-color);
   background-color: var(--dark-bg-color);
