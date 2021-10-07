@@ -1,0 +1,451 @@
+:root {
+  font-family: "Hind", sans-serif;
+  font-size: 16px;
+  --primary-color: #fae806;
+  --dark-bg-color: #1e1e1e;
+  --secondary-font-color: whitesmoke;
+}
+
+body {
+  background: #000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg {
+  background-image: url("https://tip.edu.ph/themes/custom/images/TIP-desktop-HOMEPAGE-LIGHT-GRAY.jpg");
+  background-attachment: fixed;
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 45vh;
+}
+
+.top-links {
+  align-self: flex-end;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.top-links a {
+  border: black 1px solid;
+  border-width: 0px 1px;
+  padding: 0 0.5rem;
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.tip {
+  background: var(--primary-color);
+  padding: 0.7rem 0;
+  width: 100%;
+  text-align: center;
+  border: 0;
+  margin: 0;
+}
+
+nav {
+  color: var(--secondary-font-color);
+  background: var(--dark-bg-color);
+  padding: 0.5rem 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 0.8rem;
+  border-right: solid 1px var(--primary-color);
+  padding: 0rem 0.5rem;
+}
+
+nav a:last-child {
+  border-right: none;
+}
+
+.icon img {
+  width: 1rem;
+}
+
+.icon a {
+  background: var(--primary-color);
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.icon {
+  align-self: flex-end;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  min-height: 20vh;
+}
+
+article {
+  width: 100%;
+  background: var(--primary-color);
+}
+
+p {
+  text-align: justify;
+  width: 80ch;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.infos,
+.news {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.infos div {
+  width: 20%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.news {
+  flex-direction: column;
+}
+
+.infos h4,
+.news h4 {
+  text-align: center;
+  border-bottom: 0.2rem solid var(--dark-bg-color);
+  padding-bottom: 0.2rem;
+}
+
+.news h4 {
+  text-align: left;
+  padding-left: 3rem;
+}
+
+.news-img {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.news-img figcaption {
+  font-size: 0.7rem;
+  font-style: italic;
+  width: 25ch;
+}
+.news div {
+  width: 60%;
+  margin: auto;
+}
+
+footer {
+  background: var(--dark-bg-color);
+  color: var(--secondary-font-color);
+  padding: 1.5rem 1rem;
+  font-size: 0.7rem;
+  text-align: center;
+}
+/* end of home styles */
+
+#about {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10vh;
+}
+
+.about-nav-cover {
+  align-self: flex-start;
+  width: 30%;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  border-radius: 10%;
+}
+
+.about-navbar {
+  padding: 1rem;
+  padding-bottom: 2rem;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5%;
+}
+
+.about-navbar a {
+  font-size: 1.2rem;
+  border: none;
+  border-bottom: 1px solid var(--primary-color);
+  padding: 1rem 0.5rem;
+}
+
+.content {
+  width: 60%;
+}
+
+#back-to-top:hover {
+  color: blue;
+}
+
+#back-to-top::before {
+  content: "[";
+}
+
+#back-to-top::after {
+  content: "]";
+}
+
+/* end of about page */
+
+#progOff{
+  width: 100%;
+  margin: auto;
+}
+
+#progOffart{
+  padding: 5rem;
+  text-align: center;
+}
+
+#progOffart section{
+  width: 50%;
+  margin: auto;
+}
+
+#progOffart h1{
+  font-size: 1.5rem;
+  font-style: bold;
+}
+
+#progOffart li{
+  list-style: none;
+  padding: 0.1rem;
+}
+
+.emphasize{
+  font-size: 3rem;
+  text-align: center;
+  
+}
+
+/* end of progOff */
+
+/*
+.part img {
+  width: 198px;
+  height: 132px;
+}
+.bottom2 div {
+  float: left;
+  padding-right: 25px;
+}
+.bottom2 {
+  margin-left: 100px;
+  padding-top: 15px;
+} */
+/* .news {
+  margin-left: -950px;
+}
+.hrb {
+  height: 5px;
+  background: #1e1e1e;
+  margin-top: -20px;
+  margin-right: 355px;
+}
+.bottom2 div > h4 {
+  border-bottom: 3px solid #1e1e1e;
+  text-align: left;
+} */
+/* .tipheader {
+  background-image: url("https://tip.edu.ph/themes/custom/images/TIP-desktop-HOMEPAGE-LIGHT-GRAY.jpg");
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-height: 790px;
+} */
+/* .headline {
+  width: 200px;
+  text-align: left;
+  font-size: 12px;
+}
+.headline {
+  width: 200px;
+  text-align: left;
+  font-size: 12px;
+}
+.grayheader {
+  background-image: url("https://tip.edu.ph/themes/custom/images/TIP-desktop-INSIDEPAGE-DARK-GRAY.jpg");
+  height: 320px;
+}
+.paa {
+  color: #e8e8e8;
+  text-align: center;
+} */
+/* .blackheader {
+  color: white;
+  background: #1e1e1e;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-top: -22px;
+} */
+
+/* .blackheader a:hover {
+  color: white;
+}
+.tip {
+  background: #fae806;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.icon {
+  float: right;
+  margin-right: 40px;
+}
+.icon a > i {
+  font-size: 20px;
+}
+.contact1 * {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.icon > a {
+  background: #fae806;
+  padding: 9px;
+  border-radius: 15rem;
+}
+
+.bottom {
+  background: #fae806;
+  padding-top: 10px;
+  padding-bottom: 80px;
+  overflow: hidden;
+}
+.main {
+  width: 1100px;
+  margin: auto;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.nav-content {
+  top: 0;
+  margin-top: 1rem;
+  position: sticky;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem;
+  height: 50vh;
+  margin: 1rem;
+}
+.nav-content > .Head2 {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-bottom: #fae806 1px solid;
+}
+
+.wrap {
+  display: flex;
+}
+
+#back-to-top:hover {
+  color: blue;
+}
+
+#back-to-top::before {
+  content: "[";
+}
+
+#back-to-top::after {
+  content: "]";
+}
+
+body {
+  background: #1e1e1e;
+}
+
+.side50 {
+  width: 49%;
+  float: left;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.txt-cntr {
+  text-align: center;
+}
+
+.w80 {
+  width: 80%;
+  margin: 0 auto;
+}
+.pad1 {
+  padding: 1rem;
+}
+.mrgn-left1 {
+  margin-left: 3rem;
+}
+.btn {
+  font-size: 1.2rem;
+  padding: 0.7rem 1.3rem;
+  border-radius: 25px;
+  background: #494a4a;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+.btn:hover {
+  background: #e8e8e8;
+  color: black;
+}
+.lil-hr {
+  width: 90px;
+  height: 25px;
+  background-color: #424242;
+}
+.div-line {
+  width: 80%;
+  background-color: #424242;
+  height: 3px;
+}
+.m-top {
+  margin-top: 4rem;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.padding {
+  padding: 2rem;
+} */

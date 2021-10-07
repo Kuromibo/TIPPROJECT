@@ -4,8 +4,9 @@
 }
 p{
   text-align: justify;
+  width: 80ch;
 }
-/* automatically set the size of image */
+
 img {
   width: 100%;
   height: auto;
@@ -214,4 +215,6 @@ body {
   grid-template-columns: 30% 70%;
 }
 
- 
+.padding{
+  padding: 2rem;
+}
