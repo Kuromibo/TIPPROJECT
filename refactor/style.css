@@ -689,3 +689,7 @@ a {
 .contact1 li {
   list-style: none;
 }
+
+.po-img {
+  height: 45vh;
+}
