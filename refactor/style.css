@@ -98,8 +98,9 @@ main {
 }
 
 article {
-  width: 100%;
+  width: 90%;
   background: var(--primary-color);
+  margin: auto;
 }
 
 p {
