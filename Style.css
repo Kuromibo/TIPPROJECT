@@ -2,6 +2,7 @@
   box-sizing: border-box;
   font-family: 'Hind', sans-serif;
   scroll-margin-top: 1rem;
+
 }
 html{
   scroll-behavior: smooth;
@@ -49,6 +50,8 @@ img {
   padding-top: 10px;
   padding-bottom: 10px;
   min-height: 790px;
+  margin:0;
+  padding:0;
 }
 .headline {
   width: 200px;
@@ -200,7 +203,7 @@ section h2{
   background:#424242;
   padding:.5rem;
 }
-section p{
+section p, section h4{
   padding: 0 1rem;
   font-size: 1.2rem;
 }
@@ -319,6 +322,22 @@ section p{
 }
 .small p{
   font-size: 1rem;
+}
+div.cntr{
+  background: rgba(255, 219, 41,.5);
+}
+.cntr{
+  padding:2rem;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.program-heading{
+  color:#FAE806;
+  background: #424242;
+  padding:.2rem .5rem;
 }
 .wrapper {
   display: grid;
