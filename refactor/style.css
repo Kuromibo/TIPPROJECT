@@ -136,13 +136,17 @@ img {
   flex-direction: column;
 }
 
+
 .infos h4,
 .news h4,
 #vision-mission h1,
 #core-values h3,
 #core-competencies h3,
 #policies h3,
-#hymn h1 {
+#hymn h1,
+#gen-info h1,
+#about-pres h1,
+#ad-head h1 {
   text-align: center;
   border-bottom: 0.2rem solid var(--dark-bg-color);
   padding-bottom: 0.2rem;
@@ -181,7 +185,8 @@ footer {
 }
 /* end of home styles */
 
-#about {
+#about,
+#admissions {
   display: flex;
   flex-direction: row;
   padding-bottom: 10vh;
@@ -202,7 +207,7 @@ footer {
   width: 80%;
   display: flex;
   flex-direction: column;
-  border-radius: 1%;
+  border-radius: 4.25%;
 }
 
 .about-navbar a {
@@ -212,7 +217,7 @@ footer {
   padding: 1rem 0.5rem;
 }
 
-.content {
+.content, #ad-head {
   width: 60%;
 }
 
@@ -523,6 +528,23 @@ div.cntr {
 }
 
 /* end of progOff */
+
+.qna-q {
+  color: var(--primary-color);
+  background-color: var(--dark-bg-color);
+}
+
+.dl-link:hover {
+  color:#000;
+}
+
+.dl-link {
+  color: dodgerblue;
+}
+
+.ad-content {
+  min-height: 600px;
+}
 
 /*
 .part img {
