@@ -689,3 +689,25 @@ a {
 .contact1 li {
   list-style: none;
 }
+
+/* end of contact */
+
+#infotech h1{
+  background: var(--dark-bg-color);
+  color: var(--primary-color);
+  font-size: 2rem;
+  text-align: left;
+  padding: 1rem 5vw;
+}
+
+.infotech-wrap{
+  padding: 5vh 0;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  gap: 5vw;
+}
+
+.nolistyle{
+  list-style: none;
+}
