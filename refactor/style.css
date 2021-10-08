@@ -97,9 +97,15 @@ main {
   min-height: 20vh;
 }
 
+#main-top {
+  display: flex;
+  flex-direction: row;
+}
+
 article {
-  width: 100%;
+  width: 90%;
   background: var(--primary-color);
+  margin: auto;
 }
 
 p {
@@ -145,6 +151,8 @@ img {
 .news h4 {
   text-align: left;
   padding-left: 3rem;
+  border-bottom: 0.2rem solid var(--dark-bg-color);
+  padding-bottom: 0.2rem;
 }
 
 .news-img {
