@@ -144,13 +144,17 @@ img {
   flex-direction: column;
 }
 
+
 .infos h4,
 .news h4,
 #vision-mission h1,
 #core-values h3,
 #core-competencies h3,
 #policies h3,
-#hymn h1 {
+#hymn h1,
+#gen-info h1,
+#about-pres h1,
+#ad-head h1 {
   text-align: center;
   border-bottom: 0.2rem solid var(--dark-bg-color);
   padding-bottom: 0.2rem;
@@ -189,7 +193,8 @@ footer {
 }
 /* end of home styles */
 
-#about {
+#about,
+#admissions {
   display: flex;
   flex-direction: row;
   padding-bottom: 10vh;
@@ -210,7 +215,7 @@ footer {
   width: 80%;
   display: flex;
   flex-direction: column;
-  border-radius: 1%;
+  border-radius: 4.25%;
 }
 
 .about-navbar a {
@@ -220,7 +225,7 @@ footer {
   padding: 1rem 0.5rem;
 }
 
-.content {
+.content, #ad-head {
   width: 60%;
 }
 
@@ -541,6 +546,118 @@ div.cntr {
 #news h1{
   border-bottom: 5px solid black;
   width: 80%;
+  
+.qna-q {
+  color: var(--primary-color);
+  background-color: var(--dark-bg-color);
+}
+
+.dl-link:hover {
+  color:#000;
+}
+
+.dl-link {
+  color: dodgerblue;
+}
+
+.ad-content {
+  min-height: 600px;
+}
+
+/*
+.part img {
+  width: 198px;
+  height: 132px;
+}
+.bottom2 div {
+  float: left;
+  padding-right: 25px;
+}
+.bottom2 {
+  margin-left: 100px;
+  padding-top: 15px;
+} */
+/* .news {
+  margin-left: -950px;
+}
+.hrb {
+  height: 5px;
+  background: #1e1e1e;
+  margin-top: -20px;
+  margin-right: 355px;
+}
+.bottom2 div > h4 {
+  border-bottom: 3px solid #1e1e1e;
+  text-align: left;
+} */
+/* .tipheader {
+  background-image: url("https://tip.edu.ph/themes/custom/images/TIP-desktop-HOMEPAGE-LIGHT-GRAY.jpg");
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-height: 790px;
+} */
+/* .headline {
+  width: 200px;
+  text-align: left;
+  font-size: 12px;
+}
+.headline {
+  width: 200px;
+  text-align: left;
+  font-size: 12px;
+}
+.grayheader {
+  background-image: url("https://tip.edu.ph/themes/custom/images/TIP-desktop-INSIDEPAGE-DARK-GRAY.jpg");
+  height: 320px;
+}
+.paa {
+  color: #e8e8e8;
+  text-align: center;
+} */
+/* .blackheader {
+  color: white;
+  background: #1e1e1e;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-top: -22px;
+} */
+
+/* .blackheader a:hover {
+  color: white;
+}
+.tip {
+  background: #fae806;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.icon {
+  float: right;
+  margin-right: 40px;
+}
+.icon a > i {
+  font-size: 20px;
+}
+.contact1 * {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.icon > a {
+  background: #fae806;
+  padding: 9px;
+  border-radius: 15rem;
+}
+
+.bottom {
+  background: #fae806;
+  padding-top: 10px;
+  padding-bottom: 80px;
+  overflow: hidden;
+}
+.main {
+  width: 1100px;
   margin: auto;
   margin-bottom: 10vh;
 }
