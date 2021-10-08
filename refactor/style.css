@@ -536,206 +536,40 @@ div.cntr {
   color: var(--primary-color);
 }
 
-
-
 /* end of progOff */
 
-/*
-.part img {
-  width: 198px;
-  height: 132px;
-}
-.bottom2 div {
-  float: left;
-  padding-right: 25px;
-}
-.bottom2 {
-  margin-left: 100px;
-  padding-top: 15px;
-} */
-/* .news {
-  margin-left: -950px;
-}
-.hrb {
-  height: 5px;
-  background: #1e1e1e;
-  margin-top: -20px;
-  margin-right: 355px;
-}
-.bottom2 div > h4 {
-  border-bottom: 3px solid #1e1e1e;
-  text-align: left;
-} */
-/* .tipheader {
-  background-image: url("https://tip.edu.ph/themes/custom/images/TIP-desktop-HOMEPAGE-LIGHT-GRAY.jpg");
-  padding-top: 10px;
-  padding-bottom: 10px;
-  min-height: 790px;
-} */
-/* .headline {
-  width: 200px;
-  text-align: left;
-  font-size: 12px;
-}
-.headline {
-  width: 200px;
-  text-align: left;
-  font-size: 12px;
-}
-.grayheader {
-  background-image: url("https://tip.edu.ph/themes/custom/images/TIP-desktop-INSIDEPAGE-DARK-GRAY.jpg");
-  height: 320px;
-}
-.paa {
-  color: #e8e8e8;
-  text-align: center;
-} */
-/* .blackheader {
-  color: white;
-  background: #1e1e1e;
-  padding-top: 5px;
-  padding-bottom: 10px;
-  margin-top: -22px;
-} */
-
-/* .blackheader a:hover {
-  color: white;
-}
-.tip {
-  background: #fae806;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.icon {
-  float: right;
-  margin-right: 40px;
-}
-.icon a > i {
-  font-size: 20px;
-}
-.contact1 * {
-  text-align: center;
-}
-a {
-  text-decoration: none;
-  color: black;
-}
-.icon > a {
-  background: #fae806;
-  padding: 9px;
-  border-radius: 15rem;
-}
-
-.bottom {
-  background: #fae806;
-  padding-top: 10px;
-  padding-bottom: 80px;
-  overflow: hidden;
-}
-.main {
-  width: 1100px;
+#news h1{
+  border-bottom: 5px solid black;
+  width: 80%;
   margin: auto;
-  margin-top: -10px;
-  margin-bottom: -10px;
+  margin-bottom: 10vh;
 }
 
-.content {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
 
-.nav-content {
-  top: 0;
+.news-wrap figcaption{
   margin-top: 1rem;
-  position: sticky;
+  font-style: italic;
+}
+
+.news-wrap{
   display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-  width: 100%;
-  padding: 1rem;
-  height: 50vh;
-  margin: 1rem;
-}
-.nav-content > .Head2 {
-  padding: 0.5rem;
-  font-size: 1.2rem;
-  border-bottom: #fae806 1px solid;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5vh;
 }
 
-.wrap {
-  display: flex;
-}
-
-#back-to-top:hover {
-  color: blue;
-}
-
-#back-to-top::before {
-  content: "[";
-}
-
-#back-to-top::after {
-  content: "]";
-}
-
-body {
-  background: #1e1e1e;
-}
-
-.side50 {
-  width: 49%;
-  float: left;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.txt-cntr {
-  text-align: center;
-}
-
-.w80 {
-  width: 80%;
-  margin: 0 auto;
-}
-.pad1 {
-  padding: 1rem;
-}
-.mrgn-left1 {
-  margin-left: 3rem;
-}
-.btn {
-  font-size: 1.2rem;
-  padding: 0.7rem 1.3rem;
-  border-radius: 25px;
-  background: #494a4a;
-  color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
-}
-.btn:hover {
-  background: #e8e8e8;
-  color: black;
-}
-.lil-hr {
-  width: 90px;
-  height: 25px;
-  background-color: #424242;
-}
-.div-line {
-  width: 80%;
-  background-color: #424242;
-  height: 3px;
-}
-.m-top {
-  margin-top: 4rem;
-}
-
-.wrapper {
-  display: grid;
-  grid-template-columns: 30% 70%;
-}
-
-.padding {
+.newslink h1{
+  color: var(--primary-color);
+  background: var(--dark-bg-color);
   padding: 2rem;
-} */
+}
+
+.newslink a{
+  color: blue;
+  text-decoration: underline;
+}
+
+.content-wrap{
+  padding: 20%;
+  padding-top: 10%;
+}
