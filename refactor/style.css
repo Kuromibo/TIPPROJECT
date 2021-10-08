@@ -103,7 +103,7 @@ main {
 }
 
 article {
-  width: 90%;
+  width: 100%;
   background: var(--primary-color);
   margin: auto;
 }
@@ -130,6 +130,10 @@ img {
   width: 20%;
   padding: 1rem;
   text-align: center;
+}
+
+.embed{
+  display: flex;
 }
 
 .news {
@@ -240,6 +244,7 @@ footer {
 #progoff h4 {
   line-height: 0;
 }
+
 #progoff .m-btm {
   margin-bottom: 5rem;
 }
@@ -252,6 +257,7 @@ footer {
   content: "";
   display: table;
   clear: both;
+  margin-bottom: 10vh;
 }
 .txt-cntr {
   text-align: center;
@@ -457,6 +463,10 @@ div.cntr {
   padding: 0.5rem 1rem;
   transition: all 0.5s;
 }
+
+.button span{
+  margin: 0;
+}
 .button span:after {
   content: " ▾ ";
 }
@@ -521,6 +531,8 @@ div.cntr {
 .drop a:hover {
   color: var(--primary-color);
 }
+
+
 
 /* end of progOff */
 
