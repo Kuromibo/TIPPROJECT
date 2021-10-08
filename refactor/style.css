@@ -560,11 +560,18 @@ div.cntr {
 }
 
 .dl-link {
-  color: dodgerblue;
+  color: rgb(3, 27, 129);
 }
 
 .ad-content {
-  min-height: 600px;
+  border-radius: 1%;
+  min-height: 50vh;
+  padding: 5vh;
+  background: #faea06a1;
+}
+
+#ad-head h1{
+  padding-bottom: 3vh;
 }
 
 /*
