@@ -99,7 +99,7 @@ main {
 
 #main-top {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 article {
@@ -134,6 +134,10 @@ img {
 
 .embed{
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .news {
@@ -503,7 +507,7 @@ div.cntr {
   background-color: var(--dark-bg-color);
   position: fixed;
   top: 90vh;
-  left: 90vw;
+  left: 85vw;
 }
 
 .back-to-top a {
