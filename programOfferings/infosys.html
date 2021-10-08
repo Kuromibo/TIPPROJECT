@@ -2,42 +2,178 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link href="../Style.css" rel="stylesheet" />
+    <link href="../refactor/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <title></title>
     <style media="screen">
-      .back-to-top{
-        width: 8%;
+      h4, p{margin-bottom:-.5rem;}
+      #tbl{
+        margin: 0 auto;
       }
-      .back-to-top b{
-        color:#FAE806;
+      #tbl th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #FAE806;
       }
-      body{
-        margin:0;
-        padding: 0;
-        background: #FFFFFF;
+      #tbl td, #tbl th {
+        border: 1px solid #ddd;
+        padding: 8px;
       }
+      #tbl tr:nth-child(even){background-color:rgba(66,66,66,.2);}
     </style>
   </head>
   <body>
-      <div>
-        <img src="../media/comscie.jpg" alt="">
-        <div class="cntr">
-          <h1 style="font-size:4rem; color:#424242;">COMPUTER SCIENCE</h1>
+    <div class="bg">
+      <header class="tipheader">
+        <a href="home.html"
+          ><img src="../refactor/assets/LogoT.png" style="width: 130px"
+        /></a>
+        <div class="top-links">
+          <a href="https://library.tip.edu.ph/" target="_blank"> Library </a>
+          <a href="https://tip.edu.ph/mail.php" target="_blank">
+            T.I.P. Email
+          </a>
+          <a href="https://tip.edu.ph/aris/index.php" target="_blank"> ARIS </a>
         </div>
+        <h1 class="tip">TECHNOLOGICAL INSTITUTE OF THE PHILIPPINES</h1>
+        <nav>
+          <a href="home.html"> Home </a>
+          <a href="about.html"> About T.I.P. </a>
+          <a href="programOfferings.html"> Program Offerings </a>
+          <a href=""> ABET-Accredited Programs </a>
+          <a href=""> Admissions </a>
+          <a href=""> T.I.P. TechnoCoRe </a>
+          <a href=""> T.I.P. Career Center </a>
+          <a href=""> News </a>
+          <a href="Contactus.html"> Contact us </a>
+        </nav>
+        <div class="icon">
+          <a href="Contactus.html"
+            ><img src="../refactor/assets/icons/phone-call.png" alt="" srcset=""
+          /></a>
+          <a target="_blank"href="https://www.facebook.com/pages/Technological-Institute-of-the-Philippines-News-Events/151101154907236">
+            <img src="../refactor/assets/icons/facebook.png" alt="facebook icon"srcset=""/></a>
+          <a target="_blank" href="https://twitter.com/TIP1962official"
+            ><img src="../refactor/assets/icons/twitter.png" alt="" srcset=""
+          /></a>
+        </div>
+      </header>
+      <!-- h1 title of the page -->
+      <div class="program-heading w90">
+        <h1>TItle of course</h1>
       </div>
-      <div class="back-to-top txt-cntr" onclick="location.href='../programOfferings.html'">
-        <b>Program Offerings</b>
-      </div>
-      <div >
       <div class="row w90">
+        <section class="side50 small">
+          <h4><b>for the emphasize/bold text</b> </h4>
+          <p>paragrahp</p>
+          <p>paragrahp</p>
+          <p>paragrahp</p>
+          <ul>
+            <li>list</li>
+            <li>list</li>
+            <li>list</li>
+          </ul>
+        </section>
+        <section class="side50 small">
+          <h4><b>for the emphasize/bold text</b> </h4>
+          <p>paragrahp</p>
+          <p>paragrahp</p>
+          <p>paragrahp</p>
+          <ul>
+            <li>list</li>
+            <li>list</li>
+            <li>list</li>
+          </ul>
+        </section>
+      </div>
+      <div class="row w90">
+        <section class="side50 small">
+          <h4><b>for the emphasize/bold text</b> </h4>
+          <p>paragrahp</p>
+          <p>paragrahp</p>
+          <p>paragrahp</p>
+          <ul>
+            <li>list</li>
+            <li>list</li>
+            <li>list</li>
+          </ul>
+        </section>
+        <section class="side50 small">
+          <h4><b>for the emphasize/bold text</b> </h4>
+          <p>paragrahp</p>
+          <p>paragrahp</p>
+          <p>paragrahp</p>
+          <ul>
+            <li>list</li>
+            <li>list</li>
+            <li>list</li>
+          </ul>
+        </section>
+      </div>
+      <div class=" row w90" >
         <section class="side50">
-
+          <table id="tbl" style="border-collapse: collapse;">
+            <thead>
+              <th>heading</th>
+              <th>heading</th>
+              <th>heading</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+              </tr>
+              <tr>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+              </tr>
+              <tr>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+              </tr>
+            </tbody>
+          </table>
         </section>
         <section class="side50">
-
+          <table id="tbl" style="border-collapse: collapse;">
+            <thead>
+              <th>heading</th>
+              <th>heading</th>
+              <th>heading</th>
+              <th>heading</th>
+              <th>heading</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+              </tr>
+              <tr>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+              </tr>
+              <tr>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+              </tr>
+            </tbody>
+          </table>
         </section>
       </div>
 
-      </div>
+    </div>
   </body>
 </html>
