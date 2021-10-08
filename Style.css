@@ -169,6 +169,7 @@ body {
   background: #1e1e1e
 }
 
+/* !!!!FROM HEREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE */
 .side50{
   width: 49%;
   float: left;
@@ -354,14 +355,15 @@ div.cntr{
   background: #424242;
   padding:.2rem .5rem;
 }
+/* to hereeeeeeeeeeee */
+
+
+
 .wrapper {
   display: grid;
   grid-template-columns: 30% 70%;
 }
-<<<<<<< HEAD
 
 .padding{
   padding: 2rem;
 }
-=======
->>>>>>> ed776f6774ba4ce3afd1c7f8143850f9abb0abff
